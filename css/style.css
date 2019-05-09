@@ -1,0 +1,152 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html, body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@font-face {
+  font-family: CircularStdBlack;
+  src: url("fonts/CircularStd-Black.ttf");
+}
+
+@font-face {
+  font-family: CircularStdMedium;
+  src: url("fonts/CircularStd-Medium.ttf");
+}
+
+@font-face{
+  font-family: HelveticaNeueLight;
+  src: url("fonts/HelveticaNeueLight.ttf");
+}
+
+@font-face{
+  font-family: HelveticaNeueThin;
+  src: url("fonts/HelveticaNeueThin.ttf");
+}
+
+.circular {
+  font-family: "CircularStdMedium";
+}
+
+.helv {
+  font-family: "HelveticaNeueLight";
+}
+
+@font-face{
+  font-family: ProductSans;
+  src: url("fonts/productsans.ttf");
+}
+
+.product {
+  font-family: "ProductSans";
+  font-weight: 100;
+}
+
+@font-face{
+  font-family: ProductSansBold;
+  src: url("fonts/productsans_bold.ttf");
+}
+
+.productbold {
+  font-family: "ProductSansBold";
+}
+
+.event {
+  width: 500px;
+  height: 500px;
+}
+
+.imagecropper {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+.team-member {
+  width: 250px;
+  display: inline-block;
+  padding-right: 370px;
+}
+
+.row1 {
+  float:center;
+}
+
+.about {
+  padding: 10%;
+}
+
+.events {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.team {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+}
+
+.team1 {
+  margin-left:90px;
+}
