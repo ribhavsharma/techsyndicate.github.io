@@ -703,16 +703,12 @@ margin: auto;
   font-size: 18px;
 }
 #creation-icon {
-  padding-bottom: 12px !important;
+  font-size: 51px !important;
 }
 #creation-d {
-  font-size: 22px !important;
-  padding-bottom: 3px !important;
+  font-size: 24px;
 }
 
-#logomania {
-  font-size: 30px !important;
-}
 .wrimagecard {	
   position: relative;
   background: #000;
@@ -753,7 +749,7 @@ margin: auto;
 
 .wrimagecard-topimage_header{
   padding: 25px;
-  padding-bottom: 9px !important;
+  padding-bottom: 9px;
   text-align: center;
 }
 
@@ -763,7 +759,7 @@ margin: auto;
     display: block;
 }
 .wrimagecard-topimage_title {
-    padding: 10px 24px;
+    padding: 6px 18px;
     text-align: center;
     color: #fff;
     position: relative;
@@ -773,7 +769,7 @@ h5 {
   color: #666;
 }
 .wrimagecard-topimage_title h4 {
-  font-size: 32px !important;
+  font-size: 28px;
 
 }
 .wrimagecard-topimage a {
